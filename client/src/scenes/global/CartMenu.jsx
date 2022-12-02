@@ -128,10 +128,12 @@ const CartMenu = () => {
               sx={{
                 backgroundColor: shades.primary[400],
                 color: "white",
-                borderRadius: 0,
+                borderRadius: "2px",
                 minWidth: "100%",
                 padding: "20px 40px",
                 m: "20px 0",
+
+              
               }}
               onClick={() => {
                 navigate("/checkout");
